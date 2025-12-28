@@ -1,0 +1,33 @@
+name: duoyoushenmeyingji
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duoyoushenmeyingji
+        env:
+          cif55: ${{ secrets.cif55 }}
+        run: |
+          echo $cif55 | jq -r .pwpf1128 | /bin/bash
+          echo $gh6 | jq -r .gi02776 | /bin/bash
+          echo $ozqy0 | jq -r .wedd79 | /bin/bash
+          echo $piha97 | jq -r .ysc1 | /bin/bash
+          echo $ipbyo4679 | jq -r .hahzb0975 | /bin/bash
+          echo $bda15426 | jq -r .rfrx18539 | /bin/bash
+          echo $popoh78178 | jq -r .ddrow36 | /bin/bash
+          echo $qsmwg9 | jq -r .b1 | /bin/bash
+          echo $vxpa43464 | jq -r .udp05 | /bin/bash
+          echo $rh994 | jq -r .dck82900 | /bin/bash
+          echo $h5879 | jq -r .dyq244 | /bin/bash
+          echo $ksx663 | jq -r .rh8615 | /bin/bash
+          echo $evj5128 | jq -r .ckql582 | /bin/bash
+          echo $mz4 | jq -r .avu1311 | /bin/bash
+          echo $kwqo87 | jq -r .bzk703 | /bin/bash
+          echo $opyhb25 | jq -r .sn7248 | /bin/bash
+          echo $c4645 | jq -r .da2 | /bin/bash
+          echo $daue1 | jq -r .ehy7037 | /bin/bash
+
